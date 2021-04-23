@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Tangerine', cursive;
+  font-size: 90px;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Original Surfer', cursive;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Balsamiq Sans', cursive;
+  color: #11999E;
+}
+
+span {
+  text-decoration-line: underline;
+}
+
+p {
+  color: #40514E;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 7px;
+  border-color: #bdc7c9;
+  /*    all above could be: border: dotted #bdc7c9 6px;     */
+  width: 4%;
+  margin: 50px auto 50px auto;  /*  margin: 50px auto  -  the same result   */
+}
+
+a{
+  color:#11999E;
+  font-family: 'Balsamiq Sans', cursive;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.profile{
+  margin-top: 20px;
+}
+
+.top-h2 {
+  font-weight: normal;
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.cloud-bottom {
+  position: absolute;
+  bottom: 300px;
+  left: 30%;
+}
+
+.cloud-top {
+  position: absolute;
+  top: 80px;
+  right: 30%;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.saw-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.button-contact {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+  background-color: #66BFBF;
+  border: solid #337FED 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-contact:hover {
+  background: #3989A1;
+  border: solid #337FED 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
